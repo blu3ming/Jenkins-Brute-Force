@@ -7,7 +7,7 @@ El script requiere de tres parámetros básicos:
 - Diccionario de contraseñas
 - Un usuario a probar (solo uno)
 
-	python2 jenkins-brute-force.py http://10.10.20.30/j_acegi_security_check /usr/share/wordlists/rockyou.txt admin
+		python2 jenkins-brute-force.py http://10.10.20.30/j_acegi_security_check /usr/share/wordlists/rockyou.txt admin
 
 ![37](https://user-images.githubusercontent.com/25083316/178154558-91cb3289-cf99-4c57-bf4e-e5acac6334c7.png)
 
