@@ -3,11 +3,11 @@
 Script que nos permite efectuar un ataque de fuerza bruta sobre un panel de logueo de Jenkins. Se realiza lanzando una serie de peticiones POST sobre el endpoint: */j_acegi_security_check* con credenciales de diccionario en busca de una combinación válida.
 
 El script requiere de tres parámetros básicos:
-- URL destino (con el endpoint anterior)
+- IP y puerto destino
 - Diccionario de contraseñas
 - Un usuario a probar (solo uno)
 
-		python2 jenkins-brute-force.py http://10.10.20.30/j_acegi_security_check /usr/share/wordlists/rockyou.txt admin
+		python2 jenkins-brute-force.py 10.10.20.30 8080 /usr/share/wordlists/rockyou.txt admin
 
 ![37](https://user-images.githubusercontent.com/25083316/178154558-91cb3289-cf99-4c57-bf4e-e5acac6334c7.png)
 
